@@ -1,0 +1,51 @@
+# Maven Target Folder (kompilerte filer og bygde ressurser)
+target/
+
+# Avhengigheter lastet ned av Maven
+**/dependency-reduced-pom.xml
+**/maven-status/
+**/repository/
+
+# Loggfiler og tempfiler
+*.log
+hs_err_pid*
+*.tmp
+*.swp
+
+# IDE-spesifikke filer (IntelliJ, Eclipse, VS Code osv.)
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.classpath
+*.project
+*.factorypath
+*.metadata/
+
+# OS-spesifikke filer
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# JavaFX konfigurasjonsfiler (om du genererer dem)
+javafx-weaver.log
+
+# Test-output (hvis du genererer testrapporter)
+surefire-reports/
+
+# Secrets (pass på å ikke legge til sensitive filer)
+*.key
+*.pem
+*.crt
+*.env
+
+# Editor-spesifikke filer
+*.sublime-*
+*.vscode
+*.code-workspace
+
+# Valgfritt: Ignorer JAR/ZIP-filer hvis du genererer dem
+*.jar
+*.war
+*.zip
