@@ -8,6 +8,13 @@
     <artifactId>kortspill</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>openjfx-repo</id>
+            <url>https://openjfx.io/maven</url>
+        </repository>
+    </repositories>
+
     <dependencies>
     <!-- JavaFX Dependencies -->
         <dependency>
@@ -52,7 +59,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>org.kortspill</mainClass>
+                    <mainClass>org.kortspill.Main</mainClass>
                 </configuration>
             </plugin>
 
