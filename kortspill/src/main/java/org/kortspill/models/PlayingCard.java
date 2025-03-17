@@ -1,4 +1,4 @@
-package org.kortspill;
+package org.kortspill.models;
 
 /**
  * Represents a playing card. A playing card has a number (face) between

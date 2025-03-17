@@ -1,4 +1,4 @@
-package org.kortspill;
+package org.kortspill.view;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -13,7 +13,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class Main extends Application{
+public class View extends Application{
     public static void main(String[] args) {
         launch(args);
     }

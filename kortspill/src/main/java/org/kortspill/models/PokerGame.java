@@ -1,4 +1,4 @@
-package org.kortspill;
+package org.kortspill.models;
 
 public class PokerGame {
     
