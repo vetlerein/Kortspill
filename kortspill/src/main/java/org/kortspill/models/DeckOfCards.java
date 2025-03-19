@@ -17,6 +17,7 @@ public class DeckOfCards {
         }
     }
 
+    
     private List<PlayingCard> dealHand(int n){
         
         List<PlayingCard> tempDeck = new ArrayList<>(cardDeck);
@@ -30,4 +31,18 @@ public class DeckOfCards {
         }
         return hand;
     }
+ 
+
+    private boolean checkHand(PlayingCard hand){
+
+        if (condition) {
+            
+        } else if (condition) {
+            
+        } 
+
+
+        return false;
+    }
+
 }

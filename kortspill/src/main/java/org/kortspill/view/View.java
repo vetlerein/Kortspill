@@ -31,7 +31,6 @@ public class View extends Application{
         mainLayout.setPadding(new Insets(10));
         
         kortBox = new HBox();
-       //TODO kortBox.setStyle(Color.LIGHTSKYBLUE.toString());
         kortBox.setSpacing(10);
         
         underKortBox = new HBox();
@@ -74,25 +73,3 @@ public class View extends Application{
         window.show();
     }
 }
-
-        // mainLayout.getStylesheets().add(Objects.requireNonNull(getClass()
-        //       .getResource("/org/kortspill/style.css")).toExternalForm());
-
-        // mainLayout.getStyleClass().add("mainLayout");
-
-        // text.setX(10);
-        // text.setY(45);
-        // text.setFont(Font.font("Times new roman", 30));
-        // text.setFill(Color.BLACK);
-
-                // line.setStartX(10);
-        // line.setStartY(70);
-        // line.setEndX(775);
-        // line.setEndY(70);
-        // line.setStrokeWidth(5);;
-        // line.setStroke(Color.BLUE);
-
-        // knapp.setText("Hello");
-        // knapp.setLayoutX(20);
-        // knapp.setLayoutY(90);
-        // knapp.setOnAction(e -> System.out.println("Test"));
