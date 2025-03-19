@@ -17,8 +17,7 @@ public class DeckOfCards {
         }
     }
 
-    
-    private List<PlayingCard> dealHand(int n){
+    public List<PlayingCard> dealHand(int n){
         
         List<PlayingCard> tempDeck = new ArrayList<>(cardDeck);
         List<PlayingCard> hand = new ArrayList<PlayingCard>(); 
@@ -32,17 +31,15 @@ public class DeckOfCards {
         return hand;
     }
  
-
-    private boolean checkHand(PlayingCard hand){
-
-        if (condition) {
-            
-        } else if (condition) {
-            
-        } 
-
-
-        return false;
+    public boolean checkHand(List<PlayingCard> hand) {
+        if (hand.isEmpty()) return false;
+    
+        char suit = hand.get(0).getSuit();
+        for (PlayingCard card : hand) {
+            if (card.getSuit() != suit) {
+                return false;
+            }
+        }
+        return true;
     }
-
 }
